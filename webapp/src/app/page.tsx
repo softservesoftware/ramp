@@ -46,10 +46,10 @@ export default function Home() {
         <Section title="RAMP Solution Overview">
           <p className="mb-3">
             The Rapid Application Modernization Program (RAMP) rebuilds legacy web applications using the latest and greatest technologies,
-            talent, and methodologies. RAMP rebuilds outdated systems within <strong>3-4 months</strong> at <strong>no net cost to the government</strong> through
+            talent, and methodologies. <strong>RAMP rebuilds outdated systems</strong> within <strong>3-4 months</strong> at <strong>no net cost to the government</strong> through
             a <strong>100% performance-based model</strong>. We can deliver equivalent or better functionality while <strong>reducing costs by up to 80%</strong>. RAMP is
-            designed to attract and retain the best talent in the world by offering outsized/asymetric short term compensation in exchange
-            for rapid delivery of large scale, complex systems. This solution was developed by a team of technologists with deep understandings of challenges associated with government software development.
+            designed to <strong>attract and retain the best talent in the world</strong> by offering <strong>outsized/asymmetric short term compensation</strong> in exchange
+            for <strong>rapid delivery at scale</strong>. This solution was developed by a team of technologists with a deep understanding of challenges associated with government software development.
           </p>
         </Section>
 
@@ -76,11 +76,46 @@ export default function Home() {
           <Timeline />
         </Section>
 
+        <Section title="RAMP Process">
+          <p className="mb-3">
+            RAMP operates with <strong>small teams of 10x engineers</strong> instead of the large teams traditionally deployed for government IT projects. 
+            These elite technologists can deliver in weeks what normally takes months or years with conventional teams.
+          </p>
+          
+          <p className="mb-3">
+            Our engineers receive <strong>significantly higher compensation</strong> than industry standards 
+            in exchange for their <strong>outsized delivery capabilities</strong>. This performance-based compensation model 
+            attracts world-class talent motivated to deliver extraordinary results quickly.
+          </p>
+          
+          <p className="mb-3">
+            Once development is complete, we <strong>transition the modernized systems</strong> along with comprehensive 
+            documentation, best practices, and guidelines to a <strong>lower-rate workforce</strong> for long-term maintenance 
+            and incremental feature additions. This approach ensures both rapid development and sustainable operations 
+            while maximizing cost savings.
+          </p>
+        </Section>
 
+        <Section title="What RAMP Needs to Get Started">
+          <p className="mb-3">
+            To achieve fast results, the RAMP process needs to be incorporated into a mechanism that the federal government can purchase. 
+            I believe that the <strong>fastest way to implement this solution</strong> is to accept this submission as comparable to 
+            <strong> SBIR Phase I research</strong> and <strong>sole source a SBIR Phase II to Softserve Software LLC.</strong> 
+             With a Phase II award, we can begin the RAMP process across the federal government immediately. There may be other channels
+             to quickly implement this solution, but this is the fastest path to results that we are aware of.
+          </p>
+          
+          <p className="mb-3">
+            <strong>Contact Information:</strong><br />
+            Email: <a href="mailto:matt@softservsoftware.com" className="text-blue-600 hover:underline">matt@softservsoftware.com</a><br />
+            Phone: <a href="tel:6107315229" className="text-blue-600 hover:underline">(610) 731-5229</a>
+          </p>
+        </Section>
       </main>
 
       <footer className="mt-6 text-center">
-        <p className="text-sm text-gray-500">© 2024 Rapid Application Modernization Program (RAMP)</p>
+        <p className="text-sm text-gray-500">© 2025 Softserve Software LLC. All rights reserved.</p>
+        <p className="text-sm text-gray-500"> The Rapid Application Modernization Program (RAMP) was announced by Softserve Software LLC on March 1, 2025.</p>
       </footer>
     </div>
   );

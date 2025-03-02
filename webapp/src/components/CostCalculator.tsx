@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import React from 'react';
 export function CostCalculator() {
     const [contractValue, setContractValue] = useState(100);
-    const [timeline, setTimeline] = useState(4);
+    const [timeline, setTimeline] = useState(5);
     const [calculatedValues, setCalculatedValues] = useState<{
         existing: number[];
         ramp: number[];
@@ -43,7 +43,7 @@ export function CostCalculator() {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
                 <div>
                     <label className="block text-sm font-medium mb-1">
-                        Annual Contract Value (in $M)
+                        Fully Burdened Annual Cost of Software (in $M)
                     </label>
                     <input
                         type="number"
