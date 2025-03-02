@@ -105,7 +105,7 @@ export default function Home() {
           </p>
 
           <p className="mb-3">
-            Our technical stack includes <strong>NextJS</strong> for frontend and API development, <strong>TailwindCSS and ShadCN</strong> for
+            Our technical stack includes <strong>NextJS</strong>, <strong>TailwindCSS and ShadCN</strong> for
             consistent UI components, <strong>Prisma ORM</strong> for database abstraction, and <strong>Docker</strong> for containerization.
             This carefully engineered balance of <strong>simplicity and scalability</strong> minimizes infrastructure costs and complexity.
           </p>
