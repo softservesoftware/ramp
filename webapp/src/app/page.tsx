@@ -76,35 +76,60 @@ export default function Home() {
           <Timeline />
         </Section>
 
-        <Section title="RAMP Process">
+        <Section title="RAMP Personnel Innovation">
           <p className="mb-3">
-            RAMP operates with <strong>small teams of 10x engineers</strong> instead of the large teams traditionally deployed for government IT projects. 
+            RAMP operates with <strong>small teams of 10x engineers</strong> instead of the large teams traditionally deployed for government IT projects.
             These elite technologists can deliver in weeks what normally takes months or years with conventional teams.
           </p>
-          
+
           <p className="mb-3">
-            Our engineers receive <strong>significantly higher compensation</strong> than industry standards 
-            in exchange for their <strong>outsized delivery capabilities</strong>. This performance-based compensation model 
+            Our engineers receive <strong>significantly higher compensation</strong> than industry standards
+            in exchange for their <strong>outsized delivery capabilities</strong>. This performance-based compensation model
             attracts world-class talent motivated to deliver extraordinary results quickly.
           </p>
-          
+
           <p className="mb-3">
-            Once development is complete, we <strong>transition the modernized systems</strong> along with comprehensive 
-            documentation, best practices, and guidelines to a <strong>lower-rate workforce</strong> for long-term maintenance 
-            and incremental feature additions. This approach ensures both rapid development and sustainable operations 
+            Once development is complete, we <strong>transition the modernized systems</strong> along with comprehensive
+            documentation, best practices, and guidelines to a <strong>lower-rate workforce</strong> for long-term maintenance
+            and incremental feature additions. This approach ensures both rapid development and sustainable operations
             while maximizing cost savings.
+          </p>
+        </Section>
+
+        <Section title="RAMP Technical Innovation">
+          <p className="mb-3">
+            RAMP leverages a modern technology stack with <strong>reusable application templates</strong> to dramatically accelerate development.
+            Our approach is built on a <a href="https://github.com/softservesoftware/nextjs-starter" className="text-blue-600 hover:underline">purpose-built NextJS foundation</a> that enables
+            rapid deployment across any environment—cloud, on-premises, or across classification levels.
+          </p>
+
+          <p className="mb-3">
+            Our technical stack includes <strong>NextJS</strong> for frontend and API development, <strong>TailwindCSS and ShadCN</strong> for
+            consistent UI components, <strong>Prisma ORM</strong> for database abstraction, and <strong>Docker</strong> for containerization.
+            This carefully engineered balance of <strong>simplicity and scalability</strong> minimizes infrastructure costs and complexity.
+          </p>
+
+          <p className="mb-3">
+            The platform comes with <strong>pre-configured authentication mechanisms</strong> that integrate seamlessly with federal SSO systems.
+            By standardizing on these patterns, we reduce development time while maintaining high security standards and
+            compliance with government requirements.
+          </p>
+
+          <p className="mb-3">
+            After hand off this stack will be easily transitioned to a lower rate workforce that can continue to iterate and improve the system. 
+            Standardized patterns and best practices will be provided to ensure a smooth transition and ongoing maintenance.
           </p>
         </Section>
 
         <Section title="What RAMP Needs to Get Started">
           <p className="mb-3">
-            To achieve fast results, the RAMP process needs to be incorporated into a mechanism that the federal government can purchase. 
-            I believe that the <strong>fastest way to implement this solution</strong> is to accept this submission as comparable to 
-            <strong> SBIR Phase I research</strong> and <strong>sole source a SBIR Phase II to Softserve Software LLC.</strong> 
-             With a Phase II award, we can begin the RAMP process across the federal government immediately. There may be other channels
-             to quickly implement this solution, but this is the fastest path to results that we are aware of.
+            To achieve fast results, the RAMP process needs to be incorporated into a mechanism that the federal government can purchase.
+            I believe that the <strong>fastest way to implement this solution</strong> is to accept this submission as comparable to
+            <strong> SBIR Phase I research</strong> and <strong>sole source a SBIR Phase II to Softserve Software LLC.</strong>
+            With a Phase II award, we can begin the RAMP process across the federal government immediately. There may be other channels
+            to quickly implement this solution, but this is the fastest path to results that we are aware of.
           </p>
-          
+
           <p className="mb-3">
             <strong>Contact Information:</strong><br />
             Email: <a href="mailto:matt@softservsoftware.com" className="text-blue-600 hover:underline">matt@softservsoftware.com</a><br />
