@@ -118,7 +118,8 @@ export default function Home() {
 
           <p className="mb-3">
             After hand off this stack will be easily transitioned to a lower rate workforce that can continue to iterate and improve the system. 
-            Standardized patterns and best practices will be provided to ensure a smooth transition and ongoing maintenance.
+            Standardized patterns and best practices will be provided to ensure a smooth transition and ongoing maintenance. This stack also lends itself well to
+            AI code generation and development, allowing for rapid development of new features and capabilities.
           </p>
         </Section>
 
