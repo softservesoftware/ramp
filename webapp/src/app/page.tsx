@@ -5,7 +5,7 @@ import { Section } from "@/components/Section";
 import { SpendingChart } from "@/components/SpendingChart";
 import { CostCalculator } from "@/components/CostCalculator";
 import { Timeline } from "@/components/Timeline";
-
+import { Analytics } from "@vercel/analytics/react"
 // NAICS 5415 spending data with projections (9.22% CAGR)
 const spendingData = [
   { year: '2019', amount: 43.47, projected: false },
@@ -39,7 +39,8 @@ export default function Home() {
           <p className="mb-3">
             We estimate that about <strong>15%</strong> of this annual spend goes toward basic web development for relatively simple
             database-driven websites. These systems use legacy technologies that are expensive to maintain due to infrastructure and complexity due to technical debt.
-            If correct, this represents approximately <strong>$11B in annual spending</strong> on legacy technology maintenance.
+            If correct, this represents approximately <strong>$11B in annual spending</strong> on legacy technology maintenance. We believe that with the RAMP framework,
+            we can deliver equivalent or better functionality for <strong>$1-2B</strong> annually.
           </p>
         </Section>
 
@@ -142,6 +143,7 @@ export default function Home() {
         <p className="text-sm text-gray-500">© 2025 Softserve Software LLC. All rights reserved.</p>
         <p className="text-sm text-gray-500"> The Rapid Application Modernization Program (RAMP) was announced by Softserve Software LLC on March 1, 2025.</p>
       </footer>
+      <Analytics />
     </div>
   );
 }
