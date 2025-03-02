@@ -1,21 +1,27 @@
-MIT License
+# Custom License - Public View with Intellectual Property Rights Reserved
 
-Copyright (c) 2025 Softserve Software
+Copyright (c) 2025 SoftServe Software LLC
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+This license covers both the software code and the intellectual property, methodologies, processes, and ideas described within the content of the website.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+## Permissions
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+- **Viewing and Study**: Anyone may view, download, and study this code for personal and educational purposes.
+- **Private Use**: You may use this code for personal, non-commercial projects.
+- **Forking**: You may fork this repository for the purpose of submitting pull requests to the original project.
+- **Modification**: You may modify this code for personal, non-commercial use.
+
+## Restrictions
+
+- **Commercial Use**: Commercial use of this code or implementation of the ideas, methodologies, and processes described in the content, in whole or in part, is expressly prohibited without obtaining a separate commercial license from the copyright holder.
+- **Distribution**: Redistribution of this code or content is permitted only for non-commercial purposes and must include this license and attribution to the original author.
+- **Derivative Works**: Creating and sharing derivative works based on either the code or the described methodologies is permitted only for non-commercial purposes and must include attribution to the original author.
+- **Implementation**: Implementing the processes, methodologies, or ideas described in the content for commercial purposes is expressly prohibited without obtaining a separate commercial license.
+
+## Commercial Licensing
+
+For commercial use, please contact SoftServe Software LLC to obtain a commercial license.
+
+## Warranty
+
+THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
