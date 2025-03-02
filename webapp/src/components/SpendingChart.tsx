@@ -1,7 +1,14 @@
 import { ResponsiveContainer, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip } from 'recharts';
 import React from 'react';
 
-export function SpendingChart({ data }: { data: any }) {
+// Define proper type for spending data item
+interface SpendingDataItem {
+  year: string;
+  amount: number;
+  projected: boolean;
+}
+
+export function SpendingChart({ data }: { data: SpendingDataItem[] }) {
   return (
     <div className="bg-gray-50 dark:bg-gray-800 p-4 md:p-6 rounded-lg shadow-sm my-4 md:my-6">
       <h3 className="text-lg md:text-xl font-medium mb-3">NAICS 5415 Spending Projection</h3>
@@ -26,9 +33,9 @@ export function SpendingChart({ data }: { data: any }) {
               name="Spending"
               fill="#2563eb"
               // Use fill pattern for projected values
-              fillOpacity={((entry: any) => entry.projected ? 0.7 : 1) as any}
-              stroke={((entry: any) => entry.projected ? "#2563eb" : "none") as any}
-              strokeDasharray={((entry: any) => entry.projected ? "5 5" : "0") as any}
+              fillOpacity={((entry: SpendingDataItem) => entry.projected ? 0.7 : 1) as unknown as number}
+              stroke={((entry: SpendingDataItem) => entry.projected ? "#2563eb" : "none") as unknown as string}
+              strokeDasharray={((entry: SpendingDataItem) => entry.projected ? "5 5" : "0") as unknown as string}
             />
           </BarChart>
         </ResponsiveContainer>

@@ -8,12 +8,12 @@ import { Timeline } from "@/components/Timeline";
 
 // NAICS 5415 spending data with projections (9.22% CAGR)
 const spendingData = [
-  { year: '2019', amount: 43.47 },
-  { year: '2020', amount: 57.33 },
-  { year: '2021', amount: 61.36 },
-  { year: '2022', amount: 66.13 },
-  { year: '2023', amount: 70.44 },
-  { year: '2024', amount: 73.12 },
+  { year: '2019', amount: 43.47, projected: false },
+  { year: '2020', amount: 57.33, projected: false },
+  { year: '2021', amount: 61.36, projected: false },
+  { year: '2022', amount: 66.13, projected: false },
+  { year: '2023', amount: 70.44, projected: false },
+  { year: '2024', amount: 73.12, projected: false },
   { year: '2025', amount: 79.86, projected: true },
   { year: '2026', amount: 87.23, projected: true },
   { year: '2027', amount: 95.27, projected: true },
