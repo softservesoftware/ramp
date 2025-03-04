@@ -30,70 +30,71 @@ export default function Home() {
       <main className="flex-1 flex flex-col gap-6 md:gap-8 max-w-4xl mx-auto w-full">
         <Section title="Problem Overview">
           <p className="mb-3">
-            Currently, the US government spends <strong>$73B annually</strong> on NAICS 5415 (Computer Systems Design and Related Services).
-            Between 2019 and 2024, this spending has grown at a <strong>9.22% CAGR</strong>. If left unchecked, it will reach approximately <strong>$100B by 2028</strong>.
+            The US government currently spends <strong>$73B annually</strong> on Computer Systems Design and Related Services (NAICS 5415).
+            This spending has grown at a <strong>9.22% CAGR</strong> between 2019 and 2024, and is projected to reach <strong>$104B by 2028</strong> if current trends continue.
           </p>
 
           <SpendingChart data={spendingData} />
 
           <p className="mb-3">
-            We estimate that about <strong>15%</strong> of this annual spend goes toward basic web development for relatively simple
-            database-driven websites. These systems use legacy technologies that are expensive to maintain due to infrastructure and complexity resulting from years of technical debt.
-            If correct, this represents approximately <strong>$11B in annual spending</strong> on legacy technology maintenance. We believe that with the RAMP framework,
-            we can deliver equivalent or better functionality for <strong>$1-2B</strong> annually.
+            We estimate that <strong>15%</strong> of this annual spend—approximately <strong>$11B</strong>—is allocated to basic web development for relatively simple
+            database-driven websites built on legacy technologies. These systems are expensive to maintain due to outdated infrastructure and accumulated technical debt.
+            The RAMP framework can deliver equivalent or superior functionality for just <strong>$1-2B annually</strong>, representing potential savings of up to 80%.
           </p>
         </Section>
 
         <Section title="RAMP Solution Overview">
           <p className="mb-3">
-            The Rapid Application Modernization Program (RAMP) rebuilds legacy web applications using the latest and greatest technologies,
-            talent, and methodologies. <strong>RAMP rebuilds outdated systems</strong> within <strong>3-4 months</strong> at <strong>no net cost to the government</strong> through
-            a <strong>100% performance-based model</strong>. We can deliver equivalent or better functionality while <strong>reducing costs by up to 80%</strong>. RAMP is
-            designed to <strong>attract and retain the best talent in the world</strong> by offering <strong>outsized/asymmetric short term compensation</strong> in exchange
-            for <strong>rapid delivery at scale</strong>. This solution was developed by a team of technologists with a deep understanding of challenges associated with government software development.
+            The Rapid Application Modernization Program (RAMP) rebuilds legacy web applications using cutting-edge technologies,
+            elite talent, and modern methodologies. Our approach delivers completely modernized systems within <strong>3-4 months</strong> at
+            <strong> zero net cost to the government</strong> through our <strong>performance-based compensation model</strong>.
+          </p>
+
+          <p className="mb-3">
+            RAMP is designed to attract world-class talent by offering exceptional short-term compensation tied directly to rapid delivery and cost reduction.
+            This solution was developed by experienced technologists with deep understanding of the unique challenges in government software development.
           </p>
         </Section>
 
         <Section title="RAMP Cost Model">
           <p className="mb-3">
-            This solution is offered at <strong>zero or negative net cost</strong> to the government. Compensation is <strong>100% performance-based</strong>,
-            tied directly to cost savings and delivery timeline. We charge <strong>50% of realized annual cost savings in year 1,
+            Our solution operates at <strong>zero or negative net cost</strong> to government agencies. Our compensation is <strong>100% performance-based</strong>,
+            tied directly to verified cost savings and delivery timelines. We receive <strong>50% of realized annual cost savings in year 1,
               25% in year 2, and 12.5% in year 3</strong>, with no charges thereafter.
           </p>
 
           <CostCalculator />
 
           <p className="mb-3">
-            In most cases, the RAMP program can be completed within the same fiscal year, allowing <strong>immediate cost savings</strong>.
-            With <strong>$0 upfront cost</strong> and strictly performance-based compensation, the government assumes <strong>no risk</strong>—we succeed only
-            when the government saves money and we deliver on our promises.
+            Most RAMP projects are completed within the same fiscal year, enabling <strong>immediate budget relief</strong>.
+            With <strong>no upfront investment</strong> and strictly performance-based compensation, agencies assume <strong>no financial risk</strong>—we
+            succeed only when we deliver measurable savings.
           </p>
         </Section>
 
         <Section title="RAMP Timeline">
           <p className="mb-3">
-            The program follows a <strong>3-4 month timeline</strong> divided into <strong>three phases</strong>:
+            The program follows a streamlined <strong>3-4 month timeline</strong> divided into three distinct phases:
           </p>
           <Timeline />
         </Section>
 
         <Section title="RAMP Personnel Innovation">
           <p className="mb-3">
-            RAMP operates with <strong>small teams of 10x engineers</strong> instead of the large teams traditionally deployed for government IT projects.
-            These elite technologists can deliver in weeks what normally takes months or years with conventional teams.
+            RAMP operates with <strong>small teams of exceptional engineers</strong> rather than the large teams typically deployed for government IT projects.
+            These elite technologists can deliver in weeks what conventionally takes months or years.
           </p>
 
           <p className="mb-3">
-            Our engineers receive <strong>significantly higher compensation</strong> than industry standards
-            in exchange for their <strong>outsized delivery capabilities</strong>. This performance-based compensation model
-            attracts world-class talent motivated to deliver extraordinary results quickly.
+            Our engineers receive <strong>premium compensation</strong> compared to industry standards
+            in exchange for their demonstrated ability to deliver extraordinary results quickly. This performance-based model
+            attracts world-class talent committed to rapid, high-quality outcomes.
           </p>
 
           <p className="mb-3">
-            Once development is complete, we <strong>transition the modernized systems</strong> along with comprehensive
-            documentation, best practices, and guidelines to a <strong>lower-rate workforce</strong> for long-term maintenance
-            and incremental feature additions. This approach ensures both rapid development and sustainable operations
-            while maximizing cost savings.
+            Once development is complete, we <strong>transition the modernized systems</strong> with comprehensive
+            documentation and best practices to a <strong>standard-rate workforce</strong> for long-term maintenance.
+            This approach ensures both rapid development and sustainable operations while maximizing cost savings.
           </p>
         </Section>
 
@@ -105,31 +106,30 @@ export default function Home() {
           </p>
 
           <p className="mb-3">
-            Our technical stack includes <strong>NextJS</strong>, <strong>TailwindCSS and ShadCN</strong> for
+            Our technical stack includes <strong>NextJS</strong> for flexible web applications, <strong>TailwindCSS and ShadCN</strong> for
             consistent UI components, <strong>Prisma ORM</strong> for database abstraction, and <strong>Docker</strong> for containerization.
-            This carefully engineered balance of <strong>simplicity and scalability</strong> minimizes infrastructure costs and complexity.
+            This engineered balance of <strong>simplicity and scalability</strong> minimizes infrastructure costs while maintaining performance.
           </p>
 
           <p className="mb-3">
-            The platform comes with <strong>pre-configured authentication mechanisms</strong> that integrate seamlessly with federal SSO systems.
-            By standardizing on these patterns, we reduce development time while maintaining high security standards and
+            The platform includes <strong>pre-configured authentication systems</strong> that integrate seamlessly with federal SSO solutions.
+            By standardizing these patterns, we reduce development time while maintaining high security standards and
             compliance with government requirements.
           </p>
 
           <p className="mb-3">
-            After hand off this stack will be easily transitioned to a lower rate workforce that can continue to iterate and improve the system.
-            Standardized patterns and best practices will be provided to ensure a smooth transition and ongoing maintenance. This stack also lends itself well to
-            AI code generation and development, allowing for rapid development of new features and capabilities.
+            This standardized stack facilitates smooth transition to maintenance teams and supports ongoing enhancement.
+            The architecture also leverages modern AI-assisted development capabilities, enabling rapid iteration and evolution
+            of features as requirements change.
           </p>
         </Section>
 
-        <Section title="What RAMP Needs to Get Started">
+        <Section title="How to Implement RAMP">
           <p className="mb-3">
-            To achieve fast results, the RAMP process needs to be incorporated into a mechanism that the federal government can purchase.
-            I believe that the <strong>fastest way to implement this solution</strong> is to accept this submission as comparable to
-            <strong> SBIR Phase I research</strong> and <strong>sole source a SBIR Phase II to Softserve Software LLC.</strong>
-            With a Phase II award, we can begin the RAMP process across the federal government immediately. There may be other channels
-            to quickly implement this solution, but this is the fastest path to results that we are aware of.
+            To achieve rapid results, RAMP needs integration with established federal procurement mechanisms.
+            The <strong>most efficient implementation path</strong> would be to accept this solution as comparable to
+            <strong> SBIR Phase I research</strong> and <strong>sole source a SBIR Phase II award to Softserve Software LLC</strong>.
+            With a Phase II award, RAMP can begin delivering cost savings across federal agencies immediately.
           </p>
 
           <p className="mb-3">
@@ -142,7 +142,7 @@ export default function Home() {
 
       <footer className="mt-6 text-center">
         <p className="text-sm text-gray-500">© 2025 Softserve Software LLC. All rights reserved.</p>
-        <p className="text-sm text-gray-500"> The Rapid Application Modernization Program (RAMP) was announced by Softserve Software LLC on March 1, 2025.</p>
+        <p className="text-sm text-gray-500">The Rapid Application Modernization Program (RAMP) was announced by Softserve Software LLC on March 1, 2025.</p>
       </footer>
       <Analytics />
     </div>
