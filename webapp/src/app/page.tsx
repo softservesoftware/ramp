@@ -38,7 +38,7 @@ export default function Home() {
 
           <p className="mb-3">
             We estimate that about <strong>15%</strong> of this annual spend goes toward basic web development for relatively simple
-            database-driven websites. These systems use legacy technologies that are expensive to maintain due to infrastructure and complexity due to technical debt.
+            database-driven websites. These systems use legacy technologies that are expensive to maintain due to infrastructure and complexity resulting from years of technical debt.
             If correct, this represents approximately <strong>$11B in annual spending</strong> on legacy technology maintenance. We believe that with the RAMP framework,
             we can deliver equivalent or better functionality for <strong>$1-2B</strong> annually.
           </p>
@@ -117,7 +117,7 @@ export default function Home() {
           </p>
 
           <p className="mb-3">
-            After hand off this stack will be easily transitioned to a lower rate workforce that can continue to iterate and improve the system. 
+            After hand off this stack will be easily transitioned to a lower rate workforce that can continue to iterate and improve the system.
             Standardized patterns and best practices will be provided to ensure a smooth transition and ongoing maintenance. This stack also lends itself well to
             AI code generation and development, allowing for rapid development of new features and capabilities.
           </p>
