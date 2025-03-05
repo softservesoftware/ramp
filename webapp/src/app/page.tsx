@@ -119,8 +119,8 @@ export default function Home() {
 
           <p className="mb-3">
             This standardized stack facilitates smooth transition to maintenance teams and supports ongoing enhancement.
-            The architecture also leverages modern AI-assisted development capabilities, enabling rapid iteration and evolution
-            of features as requirements change.
+            The architecture also leverages modern <strong> AI-assisted development capabilities, enabling rapid iteration and evolution
+            of features as requirements change. </strong>
           </p>
         </Section>
 
