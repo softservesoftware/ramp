@@ -45,14 +45,15 @@ export default function Home() {
 
         <Section title="RAMP Solution Overview">
           <p className="mb-3">
-            The Rapid Application Modernization Program (RAMP) rebuilds legacy web applications using cutting-edge technologies,
-            elite talent, and modern methodologies. Our approach delivers completely modernized systems within <strong>3-4 months</strong> at
-            <strong> zero net cost to the government</strong> through our <strong>performance-based compensation model</strong>.
+            The Rapid Application Modernization Program (RAMP) is an innovation in the contracts and acquisition process. It is designed to rebuild legacy web applications using cutting-edge technologies,
+            elite talent, and modern methodologies to deliver software at breakneck speeds for a fraction of the cost of incumbent approaches. RAMP delivers completely modernized systems within <strong>3-6 months</strong> at
+            <strong> zero net cost to the government</strong> through our innovation in the <strong>performance-based compensation model</strong>.
           </p>
 
           <p className="mb-3">
-            RAMP is designed to attract world-class talent by offering exceptional short-term compensation tied directly to rapid delivery and cost reduction.
-            This solution was developed by experienced technologists with deep understanding of the unique challenges in government software development.
+            RAMP is designed to attract world-class talent by offering exceptional short-term compensation tied directly to the rapid delivery of quality software. 
+            RAMP is designed to drive total contract values down through incentives for the delivery of measurable cost savings. The RAMP framework is designed to be 
+            a <strong>zero-risk, high-reward</strong> approach to modernizing legacy systems. RAMP promises better government software for less. 
           </p>
         </Section>
 
