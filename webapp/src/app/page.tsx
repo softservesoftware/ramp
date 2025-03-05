@@ -120,16 +120,16 @@ export default function Home() {
           <p className="mb-3">
             This standardized stack facilitates smooth transition to maintenance teams and supports ongoing enhancement.
             The architecture also leverages modern <strong> AI-assisted development capabilities, enabling rapid iteration and evolution
-            of features as requirements change. </strong>
+              of features as requirements change. </strong>
           </p>
         </Section>
 
-        <Section title="How to Implement RAMP">
+        <Section title="Next Steps For RAMP">
           <p className="mb-3">
             To achieve rapid results, RAMP needs integration with established federal procurement mechanisms.
-            The <strong>most efficient implementation path</strong> would be to accept this solution as comparable to
-            <strong> SBIR Phase I research</strong> and <strong>sole source a SBIR Phase II award to Softserve Software LLC</strong>.
-            With a Phase II award, RAMP can begin delivering cost savings across federal agencies immediately.
+            Likely, the <strong>most efficient implementation path</strong> would be to accept this solution as part of a
+            <strong> SBIR research grant program.</strong> With a SBIR award for innovative pricing and technical strategies,
+            RAMP can begin delivering cost savings across federal agencies quickly.
           </p>
 
           <p className="mb-3">
