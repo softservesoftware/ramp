@@ -20,7 +20,7 @@ export function CostCalculator() {
     const monthlyContractValue = contractValue / 12;
     const monthlyReducedCost = reducedCost / 12;
     const monthlySavings = monthlyContractValue - monthlyReducedCost;
-    const annualSavings = monthlySavings * 12;
+    // const annualSavings = monthlySavings * 12;
     
     // Minimum required contract period
     const minAnalysisMonths = rebuildTime + 36;
