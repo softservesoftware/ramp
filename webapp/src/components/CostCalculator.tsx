@@ -298,18 +298,18 @@ export function CostCalculator() {
             {/* Highlighted Incentive Structure */}
             <div className="mb-8">
                 <h3 className="text-lg font-semibold mb-3 pb-2 border-b border-gray-200 dark:border-gray-700">Team Incentive Structure</h3>
-                <div className="p-4 bg-purple-50 dark:bg-purple-900/20 rounded-lg mb-4">
+                <div className="p-4 bg-blue-50 dark:bg-blue-900/20 rounded-lg mb-4">
                     <div className="text-center mb-3">
-                        <div className="text-lg font-medium text-purple-700 dark:text-purple-300">Total Incentives</div>
-                        <div className="text-3xl font-bold text-purple-700 dark:text-purple-300">${totalIncentives.toFixed(2)}M</div>
-                        <div className="text-sm text-purple-600 dark:text-purple-400">over 3 years after rebuild</div>
+                        <div className="text-lg font-medium text-blue-700 dark:text-blue-300">Total Incentives</div>
+                        <div className="text-3xl font-bold text-blue-700 dark:text-blue-300">${totalIncentives.toFixed(2)}M</div>
+                        <div className="text-sm text-blue-600 dark:text-blue-400">over 3 years after rebuild</div>
                     </div>
                     
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                         <div className="bg-white dark:bg-gray-800 p-3 rounded-lg shadow-sm">
                             <div className="flex items-center justify-between mb-2">
-                                <div className="text-purple-700 dark:text-purple-300 font-medium">Year 1</div>
-                                <div className="text-xs bg-purple-100 dark:bg-purple-800 text-purple-800 dark:text-purple-200 px-2 py-1 rounded-full">50% of savings</div>
+                                <div className="text-blue-700 dark:text-blue-300 font-medium">Year 1</div>
+                                <div className="text-xs bg-blue-100 dark:bg-blue-800 text-blue-800 dark:text-blue-200 px-2 py-1 rounded-full">50% of savings</div>
                             </div>
                             <div className="text-2xl font-bold">${year1Incentive.toFixed(2)}M</div>
                             <div className="text-xs text-gray-500">${(year1Incentive/12).toFixed(2)}M per month</div>
@@ -317,8 +317,8 @@ export function CostCalculator() {
                         
                         <div className="bg-white dark:bg-gray-800 p-3 rounded-lg shadow-sm">
                             <div className="flex items-center justify-between mb-2">
-                                <div className="text-purple-700 dark:text-purple-300 font-medium">Year 2</div>
-                                <div className="text-xs bg-purple-100 dark:bg-purple-800 text-purple-800 dark:text-purple-200 px-2 py-1 rounded-full">25% of savings</div>
+                                <div className="text-blue-700 dark:text-blue-300 font-medium">Year 2</div>
+                                <div className="text-xs bg-blue-100 dark:bg-blue-800 text-blue-800 dark:text-blue-200 px-2 py-1 rounded-full">25% of savings</div>
                             </div>
                             <div className="text-2xl font-bold">${year2Incentive.toFixed(2)}M</div>
                             <div className="text-xs text-gray-500">${(year2Incentive/12).toFixed(2)}M per month</div>
@@ -326,8 +326,8 @@ export function CostCalculator() {
                         
                         <div className="bg-white dark:bg-gray-800 p-3 rounded-lg shadow-sm">
                             <div className="flex items-center justify-between mb-2">
-                                <div className="text-purple-700 dark:text-purple-300 font-medium">Year 3</div>
-                                <div className="text-xs bg-purple-100 dark:bg-purple-800 text-purple-800 dark:text-purple-200 px-2 py-1 rounded-full">12.5% of savings</div>
+                                <div className="text-blue-700 dark:text-blue-300 font-medium">Year 3</div>
+                                <div className="text-xs bg-blue-100 dark:bg-blue-800 text-blue-800 dark:text-blue-200 px-2 py-1 rounded-full">12.5% of savings</div>
                             </div>
                             <div className="text-2xl font-bold">${year3Incentive.toFixed(2)}M</div>
                             <div className="text-xs text-gray-500">${(year3Incentive/12).toFixed(2)}M per month</div>
